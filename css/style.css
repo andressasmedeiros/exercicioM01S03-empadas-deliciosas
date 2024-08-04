@@ -10,11 +10,10 @@
 .container-cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 2%;
     margin-bottom: 50px;
     width: 100%;
-    gap: 150px;
 }
 
 .container-bemvindo {
@@ -84,3 +83,100 @@
     background-color: rgb(255, 255, 238) ;
 }
 
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    max-width: 100%;    
+}
+
+.profile-time {
+    text-align: center;
+    
+}
+
+.profile-container-time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.valores {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:  rgb(255, 183, 77);
+}
+
+.mapa {
+    height: 340px;
+    width: 750px;
+    max-width: 100%;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.texto-maps{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:  rgb(255, 183, 77);
+margin-bottom: 22px;
+padding-top: 20px;
+}
+
+.encontrar-maps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .button-contato {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(255, 146, 43);
+    color: #382b19;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #6d6e6d;
+}
+
+h1 {
+    text-align: center;
+    color: #dfd9d9;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(158, 141, 116);
+}
